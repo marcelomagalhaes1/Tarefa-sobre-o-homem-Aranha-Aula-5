@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+    <title> Homem Aranha </title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0;
+    padding: 0 4%;
+}
+
+body {
+    background: linear-gradient(#2C3156, #1b1a33);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 190px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+section{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.texto {
+    color: white;
+    width:50%;
+    text-align: center;
+}
+
+.texto h1 {
+    font-size: 5rem;
+    margin-top: 2px;
+    text-shadow: 3px 0 red, 0 3px red, 2px 2px red, 2px -2px red,2px -2px red;
+}
+.texto p{
+    font-size: 20px;
+    margin: 50px 0;
+    font-weight: 600;
+    text-align: left;
+}
+.imagem {
+    position: absolute;
+    right: -100px;
+}
+.imagem img{
+    width: 850px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                    <img src="img/logo.png">
+            </div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FILMES</a></li>
+                <li><a href="#">JOGOS</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="texto">
+                <img src="img/marvel-studios.png" width="200px">
+                <h1>Spider Man</h1>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;Depois de ser picado por uma aranha geneticamente modificada em uma demonstração científica, o jovem nerd Peter Parker ganha superpoderes. Inicialmente, ele pretende usá-los para para ganhar dinheiro, adotando o nome de Homem-Aranha e se apresentando em lutas de exibição. Porém, ao presenciar o assassinando de seu tio Ben e sentir-se culpado, Peter decide não mais usar seus poderes para proveito próprio e sim para enfrentar o mal, tendo como seu primeiro grande desafio o psicótico Duende Verde.Depois de ser picado por uma aranha geneticamente modificada em uma demonstração científica, o jovem nerd Peter Parker ganha superpoderes. Inicialmente, ele pretende usá-los para para ganhar dinheiro, adotando o nome de Homem-Aranha e se apresentando em lutas de exibição. Porém, ao presenciar o assassinando de seu tio Ben e sentir-se culpado, Peter decide não mais usar seus poderes para proveito próprio e sim para enfrentar o mal, tendo como seu primeiro grande desafio o psicótico Duende Verde.
+                </p>
+
+            </div>
+            <div class="imagem">
+                <img src="img/spidermam.png">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
